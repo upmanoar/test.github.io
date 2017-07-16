@@ -1,0 +1,70 @@
+*{margin:0;padding:0;}
+body{background:url(images/wrapper.png) repeat fixed;font-family:}
+a,a:hover{text-decoration:none}
+.floatleft{float:left}
+.floatright{float:right}
+.warpper{width:960px;margin:0 auto;background:url(images/bg.png) repeat fixed}
+.fix{overflow:hidden}
+.header{margin:15px}
+.header_right{}
+.header_right h1{font-size: 55px;
+    color: #a64330;
+    font-family: algerian;}
+.header_right img{ }
+.logo_text{float: right;
+    margin-top:7px;
+    margin-left: 15px;}
+.header_left{}
+.header_left img{margin-right: 15px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 9px;}
+.mainmenu{background:url(images/menu.png) repeat-x scroll 0 0;border-radius:10px;margin-bottom:20px;margin:0px 15px}
+.mainmenu ul{margin:0px;padding:0px;list-style:none}
+.mainmenu ul li{float:left;background:url(images/seprator.png) no-repeat scroll right center}
+.mainmenu ul li:last-child{background:none}
+.mainmenu ul li a{display:block;color:#fff;padding:10px 25px;}
+.mainmenu ul li a:hover{background:#F8D714;color:#AA46D3;border-radius:5px}
+.slider{margin:20px 15px;}
+.slider img{width:960px;}
+.promo_top{background:url(images/call_to_action.png) repeat-x scroll 0 0;border-radius:10px;margin:0px 15px;padding:10px}
+.promo_text{}
+.promo_text h2{font-size:36px;margin-right:10px;padding:6px}
+.promo_text p{    font-size: 14px;
+    width: 284px;
+    margin-right: 10px;
+    padding: 10px;}
+.promo_bottom{margin:10px 15px;box-shadow: 3px 3px 3px #353535;}
+.promo_bottom h2{margin-left: 25px;
+    margin-top: 72px;
+    color: #f18262;}
+.single_one{background:url(images/footer_one.png);width:231px;height:127px;}
+.single_two{background:url(images/footer_two.png);width:231px;height:127px;}
+.single_three{background:url(images/footer_three.png);width:231px;height:127px;}
+.single_four{background:url(images/footer_four.png);width:231px;height:127px;}
+.footer{background:url(images/footer_bg.png);margin:20px 15px;}
+.footer_top_menu{}
+.footer_top_menu ul{margin:0px;padding:0px;list-style:none;text-align:center}
+.footer_top_menu ul li{display:inline;}
+.footer_top_menu ul li:last-child{background:none}
+.footer_top_menu ul li a{color:#0A5DBB;padding:10px 25px;}
+.footer_top_menu ul li a:hover{background:#8fc3fe;color:#AA46D3;border-radius:5px}
+.footer_bottom{padding:10px}
+.footer_bottom p {text-align:center}
+
+/* stick */
+
+
+#sticky {
+    background-color: #ddd;
+    
+}
+
+ #sticky.stick {
+margin-top: 0 !important;
+position: fixed;
+top: 0;
+z-index: 10000;
+width: 69%;
+}

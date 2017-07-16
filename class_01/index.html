@@ -1,0 +1,99 @@
+<!DOCTYPE HTML publik"-//w3c//DTD XHTML 1.0 TRANSITIONAL//EN""
+http://www.w3.org/tr/xhtml/dtd/xhtml1-TRANSITIONAL.dtd">
+<html xmlns="htpp://w3.ogr/1199/xhtml">
+	<head>
+		<title></title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="fix warpper">
+			<div  class="fix header">
+				<div  class="fix header_right floatleft">
+					<img src="images/logo.png" alt="tarikmanoar"/>
+					<div class="logo_text">
+						<h1>DR.Tarik Manoar</h1>
+						<p>Knowladge & Skills and inspration to elevite your destiny</p>
+					</div>
+				</div>
+				<div class="fix header_left floatright">
+					<img src="images/message.png" alt="tarikmanoar"/>
+					<img src="images/facebook.png" alt="tarikmanoar"/>
+					<p>+8801945609791</p>
+				</div>
+			</div>
+			<div id="sticky-anchor"></div>
+			<div id="sticky" class="fix mainmenu">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Dr.Monaoar</a></li>
+					<li><a href="">About Manoar</a></li>
+					<li><a href="">Coruse</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			<div class="fix slider">
+				<img src="images/slider.jpg" alt="tarikmanoar"/>
+			</div>
+			<div class="fix promo_top">
+				<div class="fix promo_text floatleft">
+					<h2>Dr Basil Mizrahi</h2>
+				</div>
+				<div class="fix promo_text floatleft">
+					<p>B.D.S. M.Sc (Rand) M.Ed. Cert in Prosthodontics (USA) Clinical Lecturer, Eastman Dental Institute</p>
+				</div>
+				<div class="fix promo_text floatleft">
+					<p>Diplomate, American Board of Prosthodontics Specialist in Prosthodontics & Restorative Dentistry</p>
+				</div>
+			</div>
+			<div class="fix promo_bottom">
+				<div class="fix single_one floatleft">
+					<h2>10 Days on Hand course Complate</h2>
+				</div>
+				<div class="fix single_two floatleft">
+					<h2>Study Club</h2>
+				</div>
+				<div class="fix single_three floatleft">
+					<h2>Mastere Class With live</h2>
+				</div>
+				<div class="fix single_four floatleft">
+					<h2>One to One Learning Session</h2>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="fix footer_top_menu">
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Dr.Monaoar</a></li>
+						<li><a href="">About Manoar</a></li>
+						<li><a href="">Coruse</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</div>
+				<div class="fix footer_bottom">
+					<p>&copy; 2012 Mizrahi Dental Teaching Ltd, Registered in England and Wales with Company Number 5388913</p>
+				</div>
+			</div>	
+		</div>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+		<script>
+				function sticky_relocate() {
+				var window_top = $(window).scrollTop();
+				var div_top = $('#sticky-anchor').offset().top;
+				if (window_top > div_top) {
+					$('#sticky').addClass('stick');
+					$('#sticky-anchor').height($('#sticky').outerHeight());
+				} else {
+					$('#sticky').removeClass('stick');
+					$('#sticky-anchor').height(0);
+				}
+				}
+
+				$(function() {
+					$(window).scroll(sticky_relocate);
+					sticky_relocate();
+				});
+		</script>
+	</body>
+</html>
