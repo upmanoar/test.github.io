@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<title>This Is Title</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<link href="lessframwar4.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="warppar">
+			<nav class="navbar">
+			<div class="fix header">
+				<div class="fix logo floatleft">
+					<img src="images/logo.png" alt=''/>
+				</div>
+				
+				<div id="sticker" class="fix main_menu floatright">
+					<ul>
+						<li><a style="background:#c7bcff;border-radius:10px;color:#fff" href="">Home</a></li>
+						<li><a href="">Products</a></li>
+						<li><a href="">Service</a></li>
+						<li><a href="">Blog</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			</nav>
+			<div class="fix slider">
+				<div class="fix slider_img">
+					<img src="images/slider.png" alt=''/>
+				</div>	
+			</div>
+			<div class="fix promo">
+				<div class="fix single_promo floatleft">
+					<h2>Crative Devolopment</h2>
+					<p>Web DevelopmentLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p><p>nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="fix single_promo floatleft">
+					<h2>Apps Design & Devolopment</h2>
+					<p>Web DevelopmentLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p><p>nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div style="margin-right:0px"class="fix single_promo floatleft">
+					<h2>Project  Menesment</h2>
+					<p>Web DevelopmentLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p><p>nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+			<div class="fix quotes">
+				<div class="fix quotes_left floatleft">
+					<p>Web Design & Devolopment</p>
+				</div>
+				<div class="fix quotes_right floatright">
+					<p>Call Us at +8801945609791</p>
+					<a href=''>Request A quotes</a>
+				</div>
+			</div>
+			<div class="fix quotes_bottom">
+				<div class="fix quotes_bottom_left floatleft">
+					<h2>About Project  Menesment</h2>
+					<p>Web DevelopmentLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p><p>Web DevelopmentLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p><p>Web DevelopmentLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p><p>Web DevelopmentLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p><p>nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="fix quotes_bottom_right floatright">
+					<h2>Contact Us</h2>
+					<p>Address:-0000-0000-0000</p>
+					<p>Phone_No:-0000-0000-0000</p>
+					<p>Email:-0000-0000-0000</p>
+					<p>Hot_Mail:-0000-0000-0000</p>
+					<p>Skype:-0000-0000-0000</p>
+					<p>other:-0000-0000-0000</p>
+				</div>
+			</div>
+			<div class="fix promo_bottom">
+				<div class="fix single_promo_bottom floatleft">
+					<div class="fix single_promo_img floatleft">
+						<img src="images/promo_image.png"/>
+					</div>
+				</div>
+				<div class="fix single_promo_bottom floatleft">
+					<div class="fix single_promo_img floatleft">
+						<img src="images/promo_image.png"/>
+					</div>
+				</div>
+				<div style="margin-right:0px"class="fix single_promo_bottom floatleft">
+					<div class="fix single_promo_img floatleft">
+						<img src="images/promo_image.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="fix footer">
+				<div class="fix footer_copyright floatleft">
+					<p>&COPY;TARIK MANOAR</p>
+				</div>
+				<div class="fix footer_social floatright">
+					<div class="fix social_profile">
+						<a href=""><img src="images/facebook.png"/></a>
+						<a href=""><img src="images/twitter.png"/></a>
+						<a href=""><img src="images/feed.png"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+			<script type="text/javascript" src="js/jquery.scrollUp.min.js"></script>
+		<script>
+
+			/* scrollUp Minimum setup */
+			$(function () {
+				$.scrollUp();
+			});
+
+		</script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			var s=$("#sticker");
+			var pos=s.position();
+			$(window).scroll(function(){
+				var windowpos=$(window).scrollTop();
+				if(windowpos>=pos.top){
+					s.addClass("stick");
+				} 
+				else{s.removeClass("stick");
+				}
+			});
+		});
+	</script>
+	</body>
+</html>
